@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('pic-7.avif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.countdown-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.time-box {
+    margin: 0 10px;
+    padding: 20px;
+    background: #ffdd57;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.time-box span {
+    display: block;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.label {
+    font-size: 14px;
+    color: #666;
+}
